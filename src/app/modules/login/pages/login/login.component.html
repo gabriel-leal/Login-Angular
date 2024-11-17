@@ -1,0 +1,15 @@
+<div class="container">
+    <main>
+        <h1>TAS</h1>
+    
+        <form [formGroup]="profileForm">
+            <label>
+                <input type="text" formControlName="email" placeholder="Login" autocomplete="username" maxlength="20">
+            </label>
+            <label>
+                <input type="password" formControlName="password" placeholder="Senha"  autocomplete="current-password" maxlength="20">
+            </label>
+            <button type="submit" [disabled]="!profileForm.valid" (click)="submit()">Acessar</button>
+        </form>
+    </main>
+</div>
