@@ -26,5 +26,5 @@ Este projeto é uma implementação de uma tela de login desenvolvida com Angula
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/gabriel-leal/Login-Angular.git
 
